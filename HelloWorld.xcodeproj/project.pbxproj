@@ -12,6 +12,8 @@
 		178993161AA8BC4D00A64720 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178993151AA8BC4D00A64720 /* Images.xcassets */; };
 		178993191AA8BC4D00A64720 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178993171AA8BC4D00A64720 /* MainMenu.xib */; };
 		178993251AA8BC4D00A64720 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 178993241AA8BC4D00A64720 /* HelloWorldTests.m */; };
+		178993311AA8BD9400A64720 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1789932F1AA8BD9400A64720 /* MasterViewController.m */; };
+		178993321AA8BD9400A64720 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178993301AA8BD9400A64720 /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		1789931E1AA8BC4D00A64720 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		178993231AA8BC4D00A64720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		178993241AA8BC4D00A64720 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		1789932E1AA8BD9400A64720 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1789932F1AA8BD9400A64720 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		178993301AA8BD9400A64720 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 				178993111AA8BC4D00A64720 /* AppDelegate.m */,
 				178993151AA8BC4D00A64720 /* Images.xcassets */,
 				178993171AA8BC4D00A64720 /* MainMenu.xib */,
+				1789932E1AA8BD9400A64720 /* MasterViewController.h */,
+				1789932F1AA8BD9400A64720 /* MasterViewController.m */,
+				178993301AA8BD9400A64720 /* MasterViewController.xib */,
 				1789930E1AA8BC4D00A64720 /* Supporting Files */,
 			);
 			path = HelloWorld;
@@ -193,6 +201,7 @@
 			files = (
 				178993161AA8BC4D00A64720 /* Images.xcassets in Resources */,
 				178993191AA8BC4D00A64720 /* MainMenu.xib in Resources */,
+				178993321AA8BD9400A64720 /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				178993141AA8BC4D00A64720 /* main.m in Sources */,
+				178993311AA8BD9400A64720 /* MasterViewController.m in Sources */,
 				178993121AA8BC4D00A64720 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
