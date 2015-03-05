@@ -10,4 +10,7 @@
 
 @interface MasterViewController : NSViewController
 
+@property (nonatomic, strong) NSMutableArray *bugs;
+
+
 @end

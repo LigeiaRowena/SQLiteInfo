@@ -14,9 +14,30 @@
 
 @implementation MasterViewController
 
-- (void)viewDidLoad {
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+	if (self) {
+	}
+	return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+	self = [super initWithCoder:coder];
+	if (self) {
+	}
+	return self;
+}
+
+- (void)loadView
+{
+	[super loadView];
+}
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do view setup here.
 }
 
 @end
