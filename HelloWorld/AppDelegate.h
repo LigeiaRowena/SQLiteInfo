@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 #include "MasterViewController.h"
-#import "ScaryBugDoc.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
