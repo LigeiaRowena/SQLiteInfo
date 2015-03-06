@@ -24,14 +24,6 @@
 	return self;
 }
 
-- (instancetype)initWithCoder:(NSCoder *)coder
-{
-	self = [super initWithCoder:coder];
-	if (self) {
-	}
-	return self;
-}
-
 - (void)loadView
 {
 	[super loadView];

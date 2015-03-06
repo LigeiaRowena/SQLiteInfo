@@ -142,8 +142,8 @@
 				178993111AA8BC4D00A64720 /* AppDelegate.m */,
 				1789932E1AA8BD9400A64720 /* MasterViewController.h */,
 				1789932F1AA8BD9400A64720 /* MasterViewController.m */,
-				178993301AA8BD9400A64720 /* MasterViewController.xib */,
 				178993171AA8BC4D00A64720 /* MainMenu.xib */,
+				178993301AA8BD9400A64720 /* MasterViewController.xib */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -472,6 +472,7 @@
 				1789932A1AA8BC4D00A64720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1789932B1AA8BC4D00A64720 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +481,7 @@
 				1789932D1AA8BC4D00A64720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
