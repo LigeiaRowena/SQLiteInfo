@@ -7,22 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1788C5FD1AAE004000F7D62F /* IRTextFieldDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1788C5FB1AAE004000F7D62F /* IRTextFieldDrag.m */; };
 		178993121AA8BC4D00A64720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 178993111AA8BC4D00A64720 /* AppDelegate.m */; };
 		178993141AA8BC4D00A64720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 178993131AA8BC4D00A64720 /* main.m */; };
 		178993191AA8BC4D00A64720 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178993171AA8BC4D00A64720 /* MainMenu.xib */; };
 		178993251AA8BC4D00A64720 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 178993241AA8BC4D00A64720 /* HelloWorldTests.m */; };
 		178993311AA8BD9400A64720 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1789932F1AA8BD9400A64720 /* MasterViewController.m */; };
 		178993321AA8BD9400A64720 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178993301AA8BD9400A64720 /* MasterViewController.xib */; };
-		178993371AA8C29400A64720 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 178993361AA8C29400A64720 /* ScaryBugData.m */; };
-		1789933A1AA8C37E00A64720 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 178993391AA8C37E00A64720 /* ScaryBugDoc.m */; };
-		178993441AA8C46B00A64720 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1789933C1AA8C46B00A64720 /* centipede.jpg */; };
-		178993451AA8C46B00A64720 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1789933D1AA8C46B00A64720 /* centipedeThumb.jpg */; };
-		178993461AA8C46B00A64720 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1789933E1AA8C46B00A64720 /* ladybug.jpg */; };
-		178993471AA8C46B00A64720 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1789933F1AA8C46B00A64720 /* ladybugThumb.jpg */; };
-		178993481AA8C46B00A64720 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178993401AA8C46B00A64720 /* potatoBug.jpg */; };
-		178993491AA8C46B00A64720 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178993411AA8C46B00A64720 /* potatoBugThumb.jpg */; };
-		1789934A1AA8C46B00A64720 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178993421AA8C46B00A64720 /* wolfSpider.jpg */; };
-		1789934B1AA8C46B00A64720 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178993431AA8C46B00A64720 /* wolfSpiderThumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1788C5FB1AAE004000F7D62F /* IRTextFieldDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRTextFieldDrag.m; sourceTree = "<group>"; };
+		1788C5FC1AAE004000F7D62F /* IRTextFieldDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTextFieldDrag.h; sourceTree = "<group>"; };
 		1789930B1AA8BC4D00A64720 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1789930F1AA8BC4D00A64720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		178993101AA8BC4D00A64720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,18 +41,7 @@
 		1789932E1AA8BD9400A64720 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		1789932F1AA8BD9400A64720 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		178993301AA8BD9400A64720 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
-		178993351AA8C29400A64720 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
-		178993361AA8C29400A64720 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
-		178993381AA8C37E00A64720 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
-		178993391AA8C37E00A64720 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
-		1789933C1AA8C46B00A64720 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
-		1789933D1AA8C46B00A64720 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
-		1789933E1AA8C46B00A64720 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
-		1789933F1AA8C46B00A64720 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
-		178993401AA8C46B00A64720 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
-		178993411AA8C46B00A64720 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
-		178993421AA8C46B00A64720 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
-		178993431AA8C46B00A64720 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		17E336A51AACD19D00AD5ED9 /* HelloWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HelloWorld.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1788C5FA1AAE003100F7D62F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1788C5FC1AAE004000F7D62F /* IRTextFieldDrag.h */,
+				1788C5FB1AAE004000F7D62F /* IRTextFieldDrag.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		178993021AA8BC4D00A64720 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +92,7 @@
 		1789930D1AA8BC4D00A64720 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				1789933B1AA8C46B00A64720 /* images */,
-				178993341AA8C25700A64720 /* Model */,
+				17E336A51AACD19D00AD5ED9 /* HelloWorld.entitlements */,
 				178993331AA8C24600A64720 /* GUI */,
 				1789930E1AA8BC4D00A64720 /* Supporting Files */,
 			);
@@ -138,6 +128,7 @@
 		178993331AA8C24600A64720 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				1788C5FA1AAE003100F7D62F /* Helper */,
 				178993101AA8BC4D00A64720 /* AppDelegate.h */,
 				178993111AA8BC4D00A64720 /* AppDelegate.m */,
 				1789932E1AA8BD9400A64720 /* MasterViewController.h */,
@@ -146,32 +137,6 @@
 				178993301AA8BD9400A64720 /* MasterViewController.xib */,
 			);
 			name = GUI;
-			sourceTree = "<group>";
-		};
-		178993341AA8C25700A64720 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				178993351AA8C29400A64720 /* ScaryBugData.h */,
-				178993361AA8C29400A64720 /* ScaryBugData.m */,
-				178993381AA8C37E00A64720 /* ScaryBugDoc.h */,
-				178993391AA8C37E00A64720 /* ScaryBugDoc.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		1789933B1AA8C46B00A64720 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				1789933C1AA8C46B00A64720 /* centipede.jpg */,
-				1789933D1AA8C46B00A64720 /* centipedeThumb.jpg */,
-				1789933E1AA8C46B00A64720 /* ladybug.jpg */,
-				1789933F1AA8C46B00A64720 /* ladybugThumb.jpg */,
-				178993401AA8C46B00A64720 /* potatoBug.jpg */,
-				178993411AA8C46B00A64720 /* potatoBugThumb.jpg */,
-				178993421AA8C46B00A64720 /* wolfSpider.jpg */,
-				178993431AA8C46B00A64720 /* wolfSpiderThumb.jpg */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +188,11 @@
 				TargetAttributes = {
 					1789930A1AA8BC4D00A64720 = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					1789931D1AA8BC4D00A64720 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -254,15 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1789934A1AA8C46B00A64720 /* wolfSpider.jpg in Resources */,
-				178993441AA8C46B00A64720 /* centipede.jpg in Resources */,
-				178993481AA8C46B00A64720 /* potatoBug.jpg in Resources */,
 				178993191AA8BC4D00A64720 /* MainMenu.xib in Resources */,
-				178993451AA8C46B00A64720 /* centipedeThumb.jpg in Resources */,
-				178993471AA8C46B00A64720 /* ladybugThumb.jpg in Resources */,
-				178993461AA8C46B00A64720 /* ladybug.jpg in Resources */,
-				1789934B1AA8C46B00A64720 /* wolfSpiderThumb.jpg in Resources */,
-				178993491AA8C46B00A64720 /* potatoBugThumb.jpg in Resources */,
 				178993321AA8BD9400A64720 /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,11 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1789933A1AA8C37E00A64720 /* ScaryBugDoc.m in Sources */,
 				178993141AA8BC4D00A64720 /* main.m in Sources */,
 				178993311AA8BD9400A64720 /* MasterViewController.m in Sources */,
+				1788C5FD1AAE004000F7D62F /* IRTextFieldDrag.m in Sources */,
 				178993121AA8BC4D00A64720 /* AppDelegate.m in Sources */,
-				178993371AA8C29400A64720 /* ScaryBugData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +360,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld/HelloWorld.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +373,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld/HelloWorld.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

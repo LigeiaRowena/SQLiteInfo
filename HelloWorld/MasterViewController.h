@@ -7,10 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "IRTextFieldDrag.h"
 
-@interface MasterViewController : NSViewController
-
-@property (nonatomic, strong) NSMutableArray *bugs;
-
+@interface MasterViewController : NSViewController <IRTextFieldDragDelegate>
 
 @end
