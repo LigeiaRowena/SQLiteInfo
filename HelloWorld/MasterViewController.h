@@ -7,8 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "IRTextFieldDrag.h"
 
-@interface MasterViewController : NSViewController <IRTextFieldDragDelegate>
+@interface MasterViewController : NSViewController
+
 
 @end
