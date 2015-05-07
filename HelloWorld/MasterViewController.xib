@@ -7,7 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MasterViewController">
             <connections>
-                <outlet property="sizeLabel" destination="6hL-NZ-Wc9" id="mLO-dp-QGd"/>
+                <outlet property="sizeLabel" destination="qz3-2P-NwG" id="cxM-w1-Fxa"/>
                 <outlet property="tableCombo" destination="vzH-6Y-4Dr" id="gtf-7O-2tK"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
@@ -39,7 +39,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="6hL-NZ-Wc9" userLabel="Size">
-                    <rect key="frame" x="26" y="43" width="436" height="17"/>
+                    <rect key="frame" x="26" y="43" width="49" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Size:" id="tuu-Rm-ThS">
                         <font key="font" metaFont="system"/>
@@ -60,6 +60,15 @@
                         <outlet property="delegate" destination="-2" id="Qgi-hc-QIy"/>
                     </connections>
                 </comboBox>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="qz3-2P-NwG" userLabel="Size">
+                    <rect key="frame" x="97" y="43" width="365" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="Kmt-43-S9D">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
             </subviews>
         </customView>
     </objects>

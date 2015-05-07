@@ -10,5 +10,4 @@
 
 @interface MasterViewController : NSViewController
 
-
 @end
