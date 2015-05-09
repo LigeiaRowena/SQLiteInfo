@@ -9,20 +9,12 @@
 /* Begin PBXBuildFile section */
 		DFA276A91AFE6DDB00E8A60A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA276A81AFE6DDB00E8A60A /* AppDelegate.m */; };
 		DFA276AB1AFE6DDB00E8A60A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA276AA1AFE6DDB00E8A60A /* main.m */; };
-		DFA276AD1AFE6DDB00E8A60A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA276AC1AFE6DDB00E8A60A /* Images.xcassets */; };
 		DFA276B01AFE6DDB00E8A60A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA276AE1AFE6DDB00E8A60A /* MainMenu.xib */; };
-		DFA276BC1AFE6DDC00E8A60A /* DBInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA276BB1AFE6DDC00E8A60A /* DBInfoTests.m */; };
+		DFA276C81AFE6E2F00E8A60A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA276C71AFE6E2F00E8A60A /* libsqlite3.0.dylib */; };
+		DFA276CC1AFE6E6000E8A60A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA276CA1AFE6E6000E8A60A /* MasterViewController.m */; };
+		DFA276CD1AFE6E6000E8A60A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA276CB1AFE6E6000E8A60A /* MasterViewController.xib */; };
+		DFA276D01AFE70FC00E8A60A /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA276CF1AFE70FC00E8A60A /* DBHelper.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DFA276B61AFE6DDC00E8A60A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DFA2769A1AFE6DDB00E8A60A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFA276A11AFE6DDB00E8A60A;
-			remoteInfo = DBInfo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DFA276A21AFE6DDB00E8A60A /* DBInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,11 +22,13 @@
 		DFA276A71AFE6DDB00E8A60A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFA276A81AFE6DDB00E8A60A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DFA276AA1AFE6DDB00E8A60A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DFA276AC1AFE6DDB00E8A60A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFA276AF1AFE6DDB00E8A60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		DFA276B51AFE6DDC00E8A60A /* DBInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA276BA1AFE6DDC00E8A60A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFA276BB1AFE6DDC00E8A60A /* DBInfoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBInfoTests.m; sourceTree = "<group>"; };
+		DFA276C71AFE6E2F00E8A60A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DFA276C91AFE6E6000E8A60A /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DFA276CA1AFE6E6000E8A60A /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DFA276CB1AFE6E6000E8A60A /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		DFA276CE1AFE70FC00E8A60A /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		DFA276CF1AFE70FC00E8A60A /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFA276B21AFE6DDC00E8A60A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DFA276C81AFE6E2F00E8A60A /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				DFA276A41AFE6DDB00E8A60A /* DBInfo */,
-				DFA276B81AFE6DDC00E8A60A /* DBInfoTests */,
 				DFA276A31AFE6DDB00E8A60A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				DFA276A21AFE6DDB00E8A60A /* DBInfo.app */,
-				DFA276B51AFE6DDC00E8A60A /* DBInfoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,10 +62,10 @@
 		DFA276A41AFE6DDB00E8A60A /* DBInfo */ = {
 			isa = PBXGroup;
 			children = (
+				DFA276C61AFE6E0D00E8A60A /* Helper */,
+				DFA276C51AFE6E0100E8A60A /* GUI */,
 				DFA276A71AFE6DDB00E8A60A /* AppDelegate.h */,
 				DFA276A81AFE6DDB00E8A60A /* AppDelegate.m */,
-				DFA276AC1AFE6DDB00E8A60A /* Images.xcassets */,
-				DFA276AE1AFE6DDB00E8A60A /* MainMenu.xib */,
 				DFA276A51AFE6DDB00E8A60A /* Supporting Files */,
 			);
 			path = DBInfo;
@@ -88,27 +74,31 @@
 		DFA276A51AFE6DDB00E8A60A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFA276C71AFE6E2F00E8A60A /* libsqlite3.0.dylib */,
 				DFA276A61AFE6DDB00E8A60A /* Info.plist */,
 				DFA276AA1AFE6DDB00E8A60A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DFA276B81AFE6DDC00E8A60A /* DBInfoTests */ = {
+		DFA276C51AFE6E0100E8A60A /* GUI */ = {
 			isa = PBXGroup;
 			children = (
-				DFA276BB1AFE6DDC00E8A60A /* DBInfoTests.m */,
-				DFA276B91AFE6DDC00E8A60A /* Supporting Files */,
+				DFA276C91AFE6E6000E8A60A /* MasterViewController.h */,
+				DFA276CA1AFE6E6000E8A60A /* MasterViewController.m */,
+				DFA276CB1AFE6E6000E8A60A /* MasterViewController.xib */,
+				DFA276AE1AFE6DDB00E8A60A /* MainMenu.xib */,
 			);
-			path = DBInfoTests;
+			name = GUI;
 			sourceTree = "<group>";
 		};
-		DFA276B91AFE6DDC00E8A60A /* Supporting Files */ = {
+		DFA276C61AFE6E0D00E8A60A /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				DFA276BA1AFE6DDC00E8A60A /* Info.plist */,
+				DFA276CE1AFE70FC00E8A60A /* DBHelper.h */,
+				DFA276CF1AFE70FC00E8A60A /* DBHelper.m */,
 			);
-			name = "Supporting Files";
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,24 +121,6 @@
 			productReference = DFA276A21AFE6DDB00E8A60A /* DBInfo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DFA276B41AFE6DDC00E8A60A /* DBInfoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DFA276C21AFE6DDC00E8A60A /* Build configuration list for PBXNativeTarget "DBInfoTests" */;
-			buildPhases = (
-				DFA276B11AFE6DDC00E8A60A /* Sources */,
-				DFA276B21AFE6DDC00E8A60A /* Frameworks */,
-				DFA276B31AFE6DDC00E8A60A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DFA276B71AFE6DDC00E8A60A /* PBXTargetDependency */,
-			);
-			name = DBInfoTests;
-			productName = DBInfoTests;
-			productReference = DFA276B51AFE6DDC00E8A60A /* DBInfoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,10 +132,6 @@
 				TargetAttributes = {
 					DFA276A11AFE6DDB00E8A60A = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					DFA276B41AFE6DDC00E8A60A = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = DFA276A11AFE6DDB00E8A60A;
 					};
 				};
 			};
@@ -181,7 +149,6 @@
 			projectRoot = "";
 			targets = (
 				DFA276A11AFE6DDB00E8A60A /* DBInfo */,
-				DFA276B41AFE6DDC00E8A60A /* DBInfoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,15 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA276AD1AFE6DDB00E8A60A /* Images.xcassets in Resources */,
+				DFA276CD1AFE6E6000E8A60A /* MasterViewController.xib in Resources */,
 				DFA276B01AFE6DDB00E8A60A /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFA276B31AFE6DDC00E8A60A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,27 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA276AB1AFE6DDB00E8A60A /* main.m in Sources */,
+				DFA276CC1AFE6E6000E8A60A /* MasterViewController.m in Sources */,
 				DFA276A91AFE6DDB00E8A60A /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFA276B11AFE6DDC00E8A60A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFA276BC1AFE6DDC00E8A60A /* DBInfoTests.m in Sources */,
+				DFA276D01AFE70FC00E8A60A /* DBHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DFA276B71AFE6DDC00E8A60A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DFA276A11AFE6DDB00E8A60A /* DBInfo */;
-			targetProxy = DFA276B61AFE6DDC00E8A60A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DFA276AE1AFE6DDB00E8A60A /* MainMenu.xib */ = {
@@ -331,6 +277,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DBInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -342,43 +289,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DBInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DFA276C31AFE6DDC00E8A60A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DBInfoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBInfo.app/Contents/MacOS/DBInfo";
-			};
-			name = Debug;
-		};
-		DFA276C41AFE6DDC00E8A60A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DBInfoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBInfo.app/Contents/MacOS/DBInfo";
 			};
 			name = Release;
 		};
@@ -399,14 +311,6 @@
 			buildConfigurations = (
 				DFA276C01AFE6DDC00E8A60A /* Debug */,
 				DFA276C11AFE6DDC00E8A60A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DFA276C21AFE6DDC00E8A60A /* Build configuration list for PBXNativeTarget "DBInfoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DFA276C31AFE6DDC00E8A60A /* Debug */,
-				DFA276C41AFE6DDC00E8A60A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
